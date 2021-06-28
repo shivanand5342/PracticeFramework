@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-24T11:12:57 IST" name="Suite" finished-at="2021-06-24T11:13:52 IST" duration-ms="54783">
+    <groups>
+    </groups>
+    <test started-at="2021-06-24T11:12:57 IST" name="Test" finished-at="2021-06-24T11:13:52 IST" duration-ms="54783">
+      <class name="test.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.HomePage@a514af7]" started-at="2021-06-24T11:12:57 IST" name="initialize" finished-at="2021-06-24T11:13:02 IST" duration-ms="4314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.HomePage@a514af7]" started-at="2021-06-24T11:13:19 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-06-24T11:13:31 IST" duration-ms="11310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1st credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.HomePage@a514af7]" started-at="2021-06-24T11:13:31 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-06-24T11:13:40 IST" duration-ms="8987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[321]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2nd credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.HomePage@a514af7]" started-at="2021-06-24T11:13:40 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-06-24T11:13:45 IST" duration-ms="5836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pqr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3rd credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.HomePage@a514af7]" started-at="2021-06-24T11:13:46 IST" name="tearDown" finished-at="2021-06-24T11:13:47 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.HomePage -->
+      <class name="test.ValidateHeader">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.ValidateHeader@6379eb]" started-at="2021-06-24T11:13:02 IST" name="initialize" finished-at="2021-06-24T11:13:10 IST" duration-ms="7941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testValidateHeader()[pri:0, instance:test.ValidateHeader@6379eb]" started-at="2021-06-24T11:13:45 IST" name="testValidateHeader" finished-at="2021-06-24T11:13:46 IST" duration-ms="349" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Featured Courses12] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Featured Courses12] but found [FEATURED COURSES]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at test.ValidateHeader.testValidateHeader(ValidateHeader.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ValidateHeader@6379eb]" started-at="2021-06-24T11:13:47 IST" name="tearDown" finished-at="2021-06-24T11:13:48 IST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ValidateHeader -->
+      <class name="test.ValidateNavigationBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.ValidateNavigationBar@294425a7]" started-at="2021-06-24T11:13:10 IST" name="initialize" finished-at="2021-06-24T11:13:19 IST" duration-ms="9464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testNavigationBar()[pri:0, instance:test.ValidateNavigationBar@294425a7]" started-at="2021-06-24T11:13:46 IST" name="testNavigationBar" finished-at="2021-06-24T11:13:46 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationBar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ValidateNavigationBar@294425a7]" started-at="2021-06-24T11:13:48 IST" name="tearDown" finished-at="2021-06-24T11:13:52 IST" duration-ms="4513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ValidateNavigationBar -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
