@@ -1,0 +1,9 @@
+12:20:39.468 [main] DEBUG practice.Log4j2 - This is debug
+12:20:39.497 [main] INFO  practice.Log4j2 - This is info
+12:20:39.498 [main] ERROR practice.Log4j2 - This is error
+12:20:39.498 [main] FATAL practice.Log4j2 - This is fatal
+09:41:47.377 [main] DEBUG practice.Log4j2 - This is debug
+09:41:47.382 [main] INFO  practice.Log4j2 - This is info
+09:41:47.382 [main] ERROR practice.Log4j2 - This is error
+09:41:47.382 [main] FATAL practice.Log4j2 - This is fatal
+09:42:20.426 [main] DEBUG practice.Log4j2 - This is debug

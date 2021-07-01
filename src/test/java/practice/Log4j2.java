@@ -51,6 +51,7 @@ public class Log4j2 {
 		log.info("This is info");
 		log.error("This is error");
 		log.fatal("This is fatal");
+		log.info("This is info1");
 
 	}
 
