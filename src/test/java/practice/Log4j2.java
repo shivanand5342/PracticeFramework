@@ -52,11 +52,11 @@ public class Log4j2 {
 		log.error("This is error");
 		log.fatal("This is fatal");
 		
-		log.debug("This is debug1");
-		log.info("This is info1");
-		log.error("This is error1");
-		log.fatal("This is fatal1");
-
+		log.info("*****************");
+		log.debug("This is debug");
+		log.info("This is info");
+		log.error("This is error");
+		log.fatal("This is fatal");
 
 	}
 
